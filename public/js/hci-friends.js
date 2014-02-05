@@ -44,3 +44,9 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+
+function replaceName(elem) {
+	alert(elem.text());
+	// var anagram = anagrammedName(elem.text);
+	// alert(anagram);
+}
